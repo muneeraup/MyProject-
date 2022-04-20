@@ -1,0 +1,6 @@
+@include('Admin.Partials.Header')
+@include('Admin.Partials.navbar')
+@include('Admin.Partials.Sidebar')
+@yield('contents')
+@include('Admin.Partials.Script')
+@include('Admin.Partials.Footer')
